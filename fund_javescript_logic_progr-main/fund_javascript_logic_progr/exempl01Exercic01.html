@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aula1js</title>
+  </head>
+  <body>
+    <h1>quebrando a maldição</h1>
+
+    <p>meu primeiro javaScript</p>
+    <p id="biscoife"></p>
+    <script>
+      window.alert("bem vindo a loja Biscoife");
+
+      
+      let numHum = prompt("digite um  numero");
+
+      let numDois = prompt("digite dois numeros");
+
+      let numeroum = Number(numHum);
+
+      let numeodois = Number(numDois);
+
+      let result = numeroum + numeodois;
+
+      document.getElementById(
+        "biscoife"
+      ).innerHTML = `o resultado da soma é: ${result}`;
+    </script>
+  </body>
+</html>
